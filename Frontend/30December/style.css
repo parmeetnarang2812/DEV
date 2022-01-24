@@ -1,0 +1,53 @@
+#btn {
+    border-radius: 10px;
+    background-color:whitesmoke;
+    height:50px;
+    width: 150px;
+    margin-left: 600px;
+    border: 2px solid lightgrey;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #26292c;
+}
+
+#button-container {
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+
+h5 {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+#container {
+    border: 1px solid silver;
+    padding: 10px;
+    /* margin-top: 10px; */
+    display: flex;
+}
+
+.folder {
+    background-color:cadetblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* color: whitesmoke; */
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.folder [action=edit] {
+    text-decoration: underline;
+    margin-left: 22px;
+}
+.folder [action=delete] {
+    text-decoration: underline;
+    margin-left: 3px;
+}
+div[purpose=name] {
+    margin-top: 60px;
+    margin-left: 30px;
+}
