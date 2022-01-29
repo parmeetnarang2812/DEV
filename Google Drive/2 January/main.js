@@ -1,5 +1,6 @@
 (function() {
     let btn = document.querySelector("#btn");
+    let breadCrumb = document.querySelector("#divBreadCrumb");
     let divContainer = document.querySelector("#container");
     let pageTemplates = document.querySelector("#pageTemplates");
     let fid = 0;
